@@ -246,6 +246,18 @@ div .meni {
 }
 
 @media screen and (max-width: 500px) {
+  html {
+    font-size: 45%;
+  }
+
+  .span1 {
+    top: 11.7rem !important;
+  }
+
+  .span3 {
+    left: 11.7rem !important;
+  }
+
   .meni li {
     display: block;
   }
