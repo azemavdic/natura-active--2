@@ -247,15 +247,15 @@ div .meni {
 
 @media screen and (max-width: 500px) {
   html {
-    font-size: 45%;
+    font-size: 40%;
   }
 
   .span1 {
-    top: 11.7rem !important;
+    top: 11.4rem !important;
   }
 
   .span3 {
-    left: 11.7rem !important;
+    left: 11.4rem !important;
   }
 
   .meni li {
