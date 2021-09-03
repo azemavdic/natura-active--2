@@ -1,0 +1,767 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Montserrat:wght@400;600&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
+
+:root {
+  --primary-color: #66e2d4;
+  --primary-text-color: #8e8e8e;
+  --header-text-color: #00306b;
+  --white-text-color: #fff;
+  --dark-text-color: #333;
+  --navbar-bg-color: #9fc9ed;
+  --icon-bg-color: #66e2d31c;
+}
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* outline: 1px solid #f00 !important; */
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+
+.body {
+    background: cornsilk;
+   width: 100%;
+   overflow-y: hidden;
+}
+
+
+.container .header {
+    max-width: 100%;
+}
+
+.header img {
+    max-width: 120px;
+
+}
+/*
+.header h1 {
+    position: relative;
+    bottom: 110px;
+    left: 110px;
+
+}
+*/
+.header img{
+    display: inline-block;
+}
+
+.header h1{
+    display: inline-block;
+    width: 50%;
+    position: absolute;
+    top: 20px;
+    left: 130px;
+}
+/*
+.meni {
+    position: relative;
+    bottom: 120px;
+    margin: 0;
+    justify-content: center;
+}
+*/
+
+
+
+
+.inner-container {
+justify-content: center;
+background: rgb(231, 226, 226);
+width: 70%;
+margin-left: 15%;
+}
+
+.inner-container div{
+    display: inline-block;
+}
+
+.inner-container .col-1 {
+  
+    width: 30%;
+
+}
+
+.inner-container .col-1 img{
+    width: 90%;
+    margin: 5%;
+}
+
+.inner-container .col-2 {
+   width: 65%;
+    position: relative;
+}
+
+.inner-container .col-2 h1{
+    margin-bottom: 30%;
+}
+
+.inner-container .col-2 h2 {
+    color: rgb(51, 51, 51);
+    text-align: left;
+    border: 6px solid whitesmoke;
+    border-style: dotted;
+    border-width: inherit;
+
+}
+
+.doktor{
+    width: 70%;
+    margin-left: 15%;
+}
+.second-inner {
+    
+        justify-content: center;
+        width: 70%;
+        margin-left: 15%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        }
+}
+
+.op {
+    font-size: 1px;
+}
+
+
+.komentari .koment-text {
+    background: rgb(218, 226, 232) none repeat scroll 0% 0%;
+    color: rgb(69, 104, 142);
+    
+    font-size: 14px;
+}
+.comment-avatar img {
+    float: left;
+    max-height: 45px;
+    margin-right: 10px;
+}
+
+.comment-name {
+    color: rgb(43, 88, 122);
+}
+
+.comment-text {
+    margin-left: 55px;
+}
+
+.comment-date {
+    color:rgb(153, 153, 153);
+    margin-left: 50px;
+    margin-top: -10px;
+}
+/*
+.img-23 img {
+    width: 400px;
+    position: relative;
+    left: 140px;
+}
+*/
+
+.container-offer  {
+    width: auto;
+    height: 320px;
+}
+
+.container-offer div {
+    display: inline-block;
+}
+
+.container-offer img {
+    width: 300px;
+    position: relative;
+    left: 100px;}
+
+
+.img-23 {
+    width: 300px;
+    height: 300px;
+}
+
+.snizenje {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    left: 120px;
+}
+.snizenje img {
+    width: 100px;
+    height: 100px;
+    position: relative;
+left: 70px;
+}
+
+.img-hemoroidi img {
+    width: 50%;
+    position: relative;
+}
+
+
+
+.slika-hem img {
+    width: 50%;
+    position: relative;
+    left: 140px;
+    border: 1px solid black;
+    border-style: dashed;
+}
+    
+
+.buttonmain {
+    position: relative;
+font-size: 30px;
+background: #fc7e02;
+color: white;
+border-radius: 4px;
+left: 30%;
+
+}
+
+
+.footer-wrapper {
+    text-align: center;
+    font-size: 12px;
+    padding: 5px 10px;
+    padding-top: 5px;
+    color: #858585;
+    padding-top: 15px;
+    background-color: #cecece6e;
+    font-weight: 400 !important;
+    margin-top :20px ;
+    
+}
+
+.meni li {
+    display: inline-block;
+    color: white;
+    font-size: 25px;
+    position: relative;
+    bottom: 8px;
+    padding-left: 16px;
+    border-right: 1px solid white;
+    padding-right: 10px;
+    }
+
+    div .meni {
+        background: #08347d;
+        justify-content: center;
+        
+    }
+    
+    .meni {
+        display: flex;
+        justify-content: center;
+    }
+
+@media screen and (max-width: 500px){
+    .meni li{
+        display: block;
+    }   
+
+    .inner-container div{
+        display: block;
+        width: 100%;
+        margin: 0px;
+        font-size: 22px;
+    }
+
+    .doktor { 
+        width: 70%;
+        margin-left: 15%;
+    }
+
+
+    .inner-container{
+        margin: 0px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .inner-container .col-1{
+        width: 100%;
+    }
+
+    .inner-container .col-1 img{
+        width: 100%;
+        position: relative;
+        margin: 0px;
+    }
+
+    .inner-container .col-2 h1{
+        margin-bottom: 0;
+    }
+
+    .img-hemoroidi img {
+        width: 95%;
+        position: relative;
+        left: 1%;
+    }
+
+    .slika-hem img {
+        width: 95%;
+        position: relative;
+        left: 5px;
+        border: 1px solid black;
+        border-style: dashed;
+
+
+    }   
+
+    .container-offer div {
+        display: inline-block;
+    }
+}
+
+
+
+
+@media screen and (max-width: 500px){
+
+    .header h1 {
+        display: inline-block;
+        width: 50%;
+        position: absolute;
+        top: 20px;
+        left: 130px;
+        font-size: 24px;
+    }
+
+
+
+    .meni li{
+        color: white;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    right: 20px;
+    }   
+
+    .inner-container div{
+        display: block;
+        width: 100%;
+        margin: 0px;
+    }
+
+    .inner-container{
+        margin: 0px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .inner-container .col-1{
+        width: 100%;
+    }
+
+    .inner-container .col-1 img{
+        width: 100%;
+        position: relative;
+        margin: 0px;
+    }
+
+    .inner-container .col-2 h1{
+        margin-bottom: 0;
+    }
+
+    .img-hemoroidi img {
+        width: 100%;
+        position: relative;
+        left: 5px;
+    }
+
+    .slika-hem img {
+        width: 100%;
+        position: relative;
+        left: 5px;
+        border: 1px solid black;
+        border-style: dashed;
+
+
+    }   
+
+    .container-offer div {
+        display: inline-block;
+    }
+
+    .doktor {
+            width: 70%;
+            margin-left: 15%;
+            font-size: 22px;
+        }
+
+    .ble {
+            font-size: 22px;
+            
+        margin: 0;
+    margin-bottom: 0px;
+padding: 0;
+text-align: center;
+position: relative;
+left: 50px; }
+
+
+.container-offer img {
+    width: 100%;
+    position: relative;
+    }
+
+    .img-23 img {
+        width: 100%;
+    }
+
+
+    .img-23 {
+        position: relative;
+right: 100px;
+    }
+
+
+  .snizenje img {
+      display: none;
+  }
+    
+  .snizenje h2 {
+      display: none;
+  }
+
+  .snizenje h3 {
+    position: relative;
+    right: 100px;
+    margin: 2px;
+    color: red;
+    border-radius: ;
+  }
+
+
+  .buttonmain {
+position: none;
+font-size: 21px;
+background: #fc7e02;
+color: white;
+border-radius: 4px;
+left:0%;
+
+  }
+  
+  
+  .second-inner {
+    
+        justify-content: center;
+      margin-left: 10%;
+        margin-right: 10%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        }
+  
+  
+  
+
+
+
+    }
+
+
+
+
+/**********************/
+/* SPINNING WHEEL */
+/**********************/
+
+.wheel{
+    margin-block: 5rem;
+}
+
+.mainbox {
+  position: relative;
+  width: 50rem;
+  height: 50rem;
+  margin: 0 auto;
+  z-index: 1;
+}
+
+.mainbox::before {
+  content: "";
+  position: absolute;
+  width: 3.2rem;
+  height: 3.2rem;
+  color: rgb(80, 76, 76);
+  background: url("https://learndesigntutorial.com/wp-content/uploads/2021/03/arrow-left.png")
+    no-repeat;
+  background-size: 3.2rem;
+  top: 50%;
+  right: -3rem;
+  transform: translateY(-50%);
+}
+
+.box {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  border: 10px solid rgb(80, 76, 76);
+  box-shadow: inset 0 10px 5px rgba(0, 0, 0, 0.9);
+  border-radius: 50%;
+  overflow: hidden;
+  transition: transform cubic-bezier(0.25, 0.1, 0.25, 1) 8s;
+}
+
+.box span {
+  width: 50%;
+  height: 50%;
+  display: inline-block;
+  position: absolute;
+}
+
+.span1 {
+  top: 12rem;
+  left: 0;
+  background-color: #7fa1be;
+
+  clip-path: polygon(0 92%, 100% 50%, 0 8%);
+}
+
+.span2 {
+  top: 12rem;
+  right: 0;
+  background-color: #9fc9ed;
+  clip-path: polygon(100% 92%, 0 50%, 100% 8%);
+}
+
+.span3 {
+  bottom: 0;
+  left: 12rem;
+  background-color: #6f8da6;
+
+  clip-path: polygon(50% 0, 8% 100%, 92% 100%);
+}
+.span4 {
+  top: 0;
+  left: 12rem;
+  background-color: #b2d4f1;
+  clip-path: polygon(50% 100%, 92% 0, 8% 0);
+}
+
+/* TEST */
+
+.box1 .span4 {
+  background: #ecd450;
+}
+
+.box1 .span1 {
+  background: #ec5050;
+}
+.box2 .span1 {
+  background: #6fec50;
+}
+
+/* KRAJ TESTA */
+
+.box1 .span3 b {
+  transform: translate(-50%, -50%) rotate(-270deg);
+}
+
+.box1 .span1 b,
+.box2 .span1 b {
+  transform: translate(-50%, -50%) rotate(180deg);
+}
+.box2 .span3 b {
+  transform: translate(-50%, -50%) rotate(90deg);
+}
+.box1 .span4 b,
+.box2 .span4 b {
+  transform: translate(-50%, -50%) rotate(-85deg);
+}
+
+.box2 {
+  width: 100%;
+  height: 100%;
+  transform: rotate(-135deg);
+}
+
+span b {
+  width: 100%;
+  /* height: 7rem; */
+  line-height: 6.5rem;
+  /* border-radius: 50%; */
+  font-size: 2rem;
+  text-align: center;
+  color: var(--white-text-color);
+  /* background-color: white; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* box-shadow: inset 0 3px 3px 0 #717171; */
+}
+
+.spin {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 7.5rem;
+  height: 7.5rem;
+  border-radius: 50%;
+  border: 0.4rem solid white;
+  background-color: #ff5722;
+  color: #fff;
+  box-shadow: 0 5px 20px #000;
+  font-weight: bold;
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+
+.spin:active {
+  width: 7rem;
+  height: 7rem;
+  font-size: 1.2rem;
+}
+
+.message {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: var(--header-text-color);
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  z-index: -1;
+  padding: 3rem 1rem;
+  opacity: 0;
+  text-align: center;
+}
+
+.message a{
+    text-decoration: none
+}
+
+.message-animation {
+  z-index: 10;
+  opacity: 1;
+  animation: winner 0.7s linear;
+}
+
+@keyframes winner {
+  0% {
+    transform: scale(0);
+    top: 0;
+    left: 0;
+    opacity: 0;
+  }
+  35% {
+    transform: scale(0.35);
+    /* top: 50%;
+    left: 50%; */
+    top: 0;
+    left: 0;
+    opacity: 1;
+  }
+}
+
+.message p {
+  /* font-weight: bold; */
+  color: var(--white-text-color);
+  font-size: 4rem;
+  line-height: 4rem;
+  font-family: "Acme", sans-serif;
+}
+
+.message p:first-child {
+  margin-top: 5rem;
+}
+
+.message p:last-child {
+  margin-top: 5rem;
+}
+
+.mainbox.animate::before {
+  animation: animateArrow 0.7s ease infinite;
+}
+@keyframes animateArrow {
+  50% {
+    right: -4rem;
+  }
+}
+
+.message span {
+  color: #ff5722;
+  font-weight: 600;
+  font-size: 6rem;
+  position: absolute;
+  left: 40%;
+  top: 52%;
+  transform: translate(-50%, -50%);
+  animation: bounce 1s ease infinite;
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: scale(0.8);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+}
+
+.fireworks img {
+  width: 100%;
+}
+
+.fireworks {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+.check-icon {
+  color: #4ae723;
+  font-size: 7rem;
+}
+
+.display {
+  z-index: 5555;
+}
+
+/**********************/
+/* KRAJ SPINNING WHEEL */
+/**********************/
+
+/**********************/
+/* FORMA */
+/**********************/
+
+.forma {
+  display: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  width: 50rem;
+  margin: 5rem auto;
+  transform: translate(-200%, -200%);
+  transition: transform 2s ease-in;
+  border-radius: 5px;
+}
+
+.forma button {
+  font-size: 1.9rem;
+}
+
+.form-title {
+  color: var(--white-text-color);
+  padding: 3.2rem;
+  background-color: var(--navbar-bg-color);
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 2.4rem;
+  width: 100%;
+}

@@ -1,0 +1,67 @@
+body {
+    background: #f4f0ea;
+}
+
+
+.container {
+    width: 60%;
+    margin-left: 20%;
+    background: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 5px;
+}
+
+.container-2 {
+    width: 60%;
+    margin-left: 20%;
+    background: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 5px;
+    display:flex;
+}
+
+
+.container img {
+    width: 300px;
+}
+
+.rec1 img {
+    width: 80%
+}
+
+.rec2 img {
+    width: 80%;
+}
+
+
+.iskustva-container {
+display: flex;
+}
+
+.iskustva-container2 {
+display: flex;
+}
+
+.rec1 {
+    width: 50%;
+}
+
+.rec2 {
+    width: 50%;
+}
+
+@media screen and (max-width: 800px){
+    .container {
+    width: 90%;
+    margin-left: 5%;
+    background: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 5px;
+}
+    
+    
+    
+}
