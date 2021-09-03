@@ -250,6 +250,10 @@ div .meni {
     font-size: 40%;
   }
 
+  h1 {
+    margin-block: 2rem;
+  }
+
   .span1 {
     top: 11.4rem !important;
   }
