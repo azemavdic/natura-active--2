@@ -32,6 +32,10 @@ html {
   overflow-y: hidden;
 }
 
+h1 {
+  margin-block: 2rem;
+}
+
 .container .header {
   max-width: 100%;
 }
